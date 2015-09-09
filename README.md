@@ -1,4 +1,4 @@
-## Repositorio das aulas do youtube
+## Repositorio das aulas de node.js do youtube
 Aqui estão armazenados os arquivos das nossas aulas, tem testes antigos, quem tem acompanhado o curso
 vai ter facilidade de entender o que já foi feito até aqui.
 ## Compartilhem conhecimento
