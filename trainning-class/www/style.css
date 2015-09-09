@@ -1,0 +1,15 @@
+*{ padding: 0; outline: none; margin: 0; }
+
+section h1{
+	text-align:center;
+	font-size:40px;
+	font-family:"Heveltica", cursive;
+}
+.container{
+	font-size:20px;
+	max-width:970px;
+	width:100%;
+	margin: 0 auto;
+	background-color:#ccc;
+}
+

@@ -1,0 +1,7 @@
+'ascii' - 
+'utf8' - 
+'utf16le' - 
+'ucs2' - 
+'base64' - 
+'binary' - esse cara vai ser removido
+'hex' - 

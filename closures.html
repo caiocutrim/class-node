@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Hello, world!</title>
+		
+	</head>
+	<body>
+		<button>click</button>
+		<p><!-- content --></p>
+		<script type="text/javascript" charset="utf-8">
+		// modules pattern
+		//iife
+		(function(){
+			//parent context
+		  var button = document.getElementsByTagName("button")[0];
+			var p = document.getElementsByTagName("p")[0];
+
+			var count = 0;
+      // first-class-object 
+			button.addEventListener("click", function(){
+				// another context
+				//  or child context
+        count += 1;
+				p.innerHTML = count + " times";
+			});
+		})();
+		</script>
+	</body>
+</html>
